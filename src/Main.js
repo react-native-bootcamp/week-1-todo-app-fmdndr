@@ -38,7 +38,7 @@ const Main = (props) => {
   // };
 
   return (
-    <SafeAreaView style={{ flex: 1 }}>
+    <SafeAreaView style={{ flex: 1, backgroundColor: "#e8f5e9" }}>
       <View style={{ flex: 1 }}>
         <FlatList
           keyExtractor={(item, index) => index.toString()}

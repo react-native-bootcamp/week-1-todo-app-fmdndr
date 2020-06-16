@@ -20,6 +20,14 @@ const inputStyle = StyleSheet.create({
     padding: 10,
     margin: 20,
     borderRadius: 10,
+    shadowColor: "black",
+    shadowOpacity: 0.34,
+    shadowRadius: 2,
+    elevation: 10,
+    shadowOffset: {
+      width: 1,
+      height: 1,
+    },
   },
 });
 export { MyInput };

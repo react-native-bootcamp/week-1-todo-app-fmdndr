@@ -27,6 +27,9 @@ const doneStyles = StyleSheet.create({
     alignItems: "center",
     flexDirection: "row",
     justifyContent: "space-between",
+    borderStyle: "dashed",
+    borderColor: "black",
+    borderWidth: 0.9,
   },
   text: {
     fontSize: 20,
@@ -43,13 +46,16 @@ const doneStyles = StyleSheet.create({
 
 const undoneStyles = StyleSheet.create({
   container: {
-    backgroundColor: "#aed581",
+    backgroundColor: "#82ada9",
     margin: 5,
     padding: 10,
     borderRadius: 10,
     alignItems: "center",
     flexDirection: "row",
     justifyContent: "space-between",
+    borderWidth: 0.9,
+    borderStyle: "dashed",
+    borderColor: "black",
   },
   text: {
     fontSize: 20,
